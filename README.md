@@ -8,8 +8,6 @@ This is a C program that handles advanced number conversions and signed number r
 It converts between octal, binary, and hexadecimal, and shows how numbers are stored in sign magnitude, one’s complement, and two’s complement.  
 The file in this case is called **"a2_test.txt"**.
 
----
-
 ## Files in this folder
 
 - `convert.c` — functions:
@@ -28,15 +26,25 @@ You should also have your test file:
 
 - `a2_test.txt`
 
----
-
 ## Where to put the test file
 
 Place the test file in the same folder as `main.c` and `convert.c`.  
 When the program runs, it opens **a2_test.txt** from the current working folder.
 
----
+Project layout example
 
-## Project layout example
+-AdvancedDataRepresentation
+  -convert.c
+  -main.c
+  -a2_test.txt // test file
+  -CMakeLists.txt
+  -(build files will appear in here after compiling)
 
-# AdvancedDataRepresentation
+##Notes
+
+- Numbers in the test file can be written in decimal or in hexadecimal with `0x` in front.  
+- The program uses only standard C headers.  
+- If you change file names, also update `fopen("a2_test.txt", "r")` in `main.c`.  
+- The program creates a file called **output.txt** containing all test results.
+
+

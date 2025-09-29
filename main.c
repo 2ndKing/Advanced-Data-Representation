@@ -11,7 +11,7 @@ void to_sign_magnitude(int32_t number, char *output);
 void to_ones_complement(int32_t number, char *output);
 void to_twos_complement(int32_t number, char *output);
 
-//(A1 carryover, not used by A2 tests but kept)
+//A1 carryover
 void div_convert(uint32_t number, int base, char *output);
 void sub_convert(uint32_t number, int base, char *output);
 void print_tables(uint32_t number);

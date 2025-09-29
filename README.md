@@ -33,14 +33,14 @@ When the program runs, it opens **a2_test.txt** from the current working folder.
 
 Project layout example
 
--AdvancedDataRepresentation
-  -convert.c
-  -main.c
-  -a2_test.txt // test file
-  -CMakeLists.txt
-  -(build files will appear in here after compiling)
+- A dvancedDataRepresentation
+  - convert.c
+  - main.c
+  - a2_test.txt // test file
+  - CMakeLists.txt
+  - (build files will appear in here after compiling)
 
-##Notes
+## Notes
 
 - Numbers in the test file can be written in decimal or in hexadecimal with `0x` in front.  
 - The program uses only standard C headers.  
